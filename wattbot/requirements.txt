@@ -1,0 +1,10 @@
+accelerate
+transformers
+sentence-transformers
+rank-bm25
+faiss-cpu
+bitsandbytes
+torch
+pandas
+tqdm
+numpy
