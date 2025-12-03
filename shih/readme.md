@@ -110,6 +110,8 @@ FileNotFoundError: agent_storage_v4 not found
 ```
 **Solution:** Run `agent_ollama.ipynb` first to create the Marker-parsed index, or check that the `agent_storage_v4/` directory exists.
 
+**actual solution:** download from [agent_storage_v4](https://drive.google.com/file/d/1HVwAt6VQSqHKeRovd2lw0-4LRFWO0x0k/view?usp=drive_link), put the data inside into `shih/agent_storage_v4`
+
 ### Slow Performance
 - First run downloads models (~4GB)
 - Use CPU if no GPU: embeddings will be slower
