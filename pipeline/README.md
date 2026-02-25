@@ -83,11 +83,13 @@ Place the following files under `pipeline/wattbot_data/`:
 
 **4. Obtain the pre-built index**
 
-Download `agent_storage_v4/` from the project Google Drive share and place the
-contents into `pipeline/agent_storage_v4/`. This index stores ~20,000 nodes parsed
-by Marker OCR with full layout and table metadata retained.
+Download the pre-built index from Google Drive:
+[agent_storage_v4.zip](https://drive.google.com/file/d/1HVwAt6VQSqHKeRovd2lw0-4LRFWO0x0k/view?usp=drive_link)
 
-If the index is unavailable, rebuild it by running the Marker OCR parsing notebook
+Extract the contents into `pipeline/agent_storage_v4/`. This index stores ~20,000
+nodes parsed by Marker OCR with full layout and table metadata retained.
+
+If you prefer to rebuild from scratch, run the Marker OCR parsing notebook
 (takes approximately 30 minutes).
 
 ---
@@ -182,5 +184,8 @@ llm = Ollama(model="qwen2.5:3b", ...)
 
 **Index not found**
 
-Download from Google Drive (see Setup step 4), or re-run the Marker OCR parsing
-notebook to rebuild from the source PDFs.
+Download the pre-built index from Google Drive:
+[agent_storage_v4.zip](https://drive.google.com/file/d/1HVwAt6VQSqHKeRovd2lw0-4LRFWO0x0k/view?usp=drive_link)
+
+Extract the contents into `pipeline/agent_storage_v4/`. Alternatively, re-run the
+Marker OCR parsing notebook to rebuild the index from the source PDFs.

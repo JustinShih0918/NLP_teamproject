@@ -123,8 +123,8 @@ Input files are not committed due to size. Required files:
 - `pipeline/wattbot_data/train_QA.csv` -- training questions with ground-truth answers
 - `pipeline/wattbot_data/test_Q.csv` -- test questions
 - `pipeline/wattbot_data/metadata.csv` -- paper ID to URL mapping
-- `pipeline/agent_storage_v4/` -- pre-built LlamaIndex vector index, available via
-  Google Drive (link in pipeline/README.md)
+- `pipeline/agent_storage_v4/` -- pre-built LlamaIndex vector index (~20K nodes), download from
+  [Google Drive](https://drive.google.com/file/d/1HVwAt6VQSqHKeRovd2lw0-4LRFWO0x0k/view?usp=drive_link)
 
 ---
 
