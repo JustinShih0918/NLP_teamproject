@@ -7,6 +7,12 @@ extraction, boolean reasoning, range queries, and entity comparisons over a corp
 
 ---
 
+## Demo
+
+[Watch the demo on YouTube](https://youtu.be/9_xwr4Wil40)
+
+---
+
 ## Problem Statement
 
 Given questions about AI energy consumption and carbon footprint research, extract exact
