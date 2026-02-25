@@ -1,3 +1,7 @@
 .DS_Store
 *.json
-/wattbot_data/
+/pipeline/wattbot_data/
+__pycache__/
+*.pyc
+.venv/
+.venv_311/
